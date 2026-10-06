@@ -26,7 +26,7 @@ class DetailPage extends StatelessWidget {
             const SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
-                Navigator.pop(context); //return to the previous page
+                Navigator.pop(context); 
               },
               child: const Text('Back to Home'),
             ),
